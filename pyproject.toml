@@ -9,8 +9,8 @@ packages = [{include = "bot"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 asyncio = "^3.4.3"
-aiogram = {url = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip"}
 python-dotenv = "^1.0.0"
+aiogram = {git = "https://github.com/aiogram/aiogram.git", branch="dev-3.x"}
 
 
 [tool.poetry.group.dev.dependencies]
