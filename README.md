@@ -16,7 +16,7 @@ To install and run the `get-userid-bot`, follow the steps below:
 - pip package manager
 
 ### Clone the repository
-```
+```console
 $ git clone https://github.com/bmyronov/get-userid-bot.git
 $ cd get-userid-bot
 ```
@@ -34,7 +34,7 @@ To use the `get-userid-bot`, you need to create a Telegram bot and obtain the AP
    ```
 
 ### Start the bot
-```
+```console
 $ docker compose up -d
 ```
 
